@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "to-do-list-ngrx"
+    }
+  },
+  "defaultProject": "to-do-list-ngrx",
+  "cli": {
+    "analytics": false
+  }
 }
