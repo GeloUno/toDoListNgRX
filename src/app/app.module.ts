@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,8 @@ import { ToDoReducer } from './store/reducers/todo.reducer';
 import { FormsModule } from '@angular/forms';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
+import { EffectsModule } from '@ngrx/effects';
+import { TodoingEffects } from './store/effects/todoing.effect';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,8 +19,13 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
+    EffectsModule.forRoot([TodoingEffects]),
     StoreModule.forRoot({ todoing: ToDoReducer }),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
+    StoreDevtoolsModule.instrument({
+      maxAge: 25,
+      logOnly: environment.production,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

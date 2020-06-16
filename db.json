@@ -1,0 +1,20 @@
+{
+  "todo": [
+    {
+      "id": "33b128a5-8859-4794-a8f3-0ff9d1f41155",
+      "name": "rower"
+    },
+    {
+      "id": "52f41e68-f05b-44d2-9c11-81aabd75cc8c",
+      "name": "zakupy"
+    },
+    {
+      "id": "53a612cb-1c0d-4bba-ba78-4476de8827f3",
+      "name": "samolot"
+    },
+    {
+      "id": "bd8abe71-b07d-49e0-a8f5-e0b1edf4fdbf",
+      "name": "spacer"
+    }
+  ]
+}
