@@ -1,5 +1,15 @@
 # ToDoListNgrx
 
+## To Do List Angular NgRX & NgEffect
+
+### this project use local data base json-server
+
+[json-server](https://www.npmjs.com/package/json-server)
+
+run json-server:
+
+### `json-server db.json --watch `
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 ## Development server
