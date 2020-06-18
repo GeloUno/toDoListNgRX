@@ -6,9 +6,17 @@
 
 [json-server](https://www.npmjs.com/package/json-server)
 
-run json-server:
+run json-server in CLI:
 
-### `json-server db.json --watch `
+### `json-server db.json --watch`
+
+run project in CLI:
+
+### `ng serve`
+
+run project with json-server in CLI:
+
+### `npm run dev`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
